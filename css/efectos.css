@@ -1,0 +1,241 @@
+body{
+	font-family: italic, helvetica;
+	font-size: 14px;
+	margin: 0px;
+	padding: 30px;
+	background: url("../img/cosmos2.gif");
+
+}
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: url("../img/cosmos2.gif");
+	color: white;
+	padding-top: 10px;
+	min-height: 70px;
+	border-style: solid;
+	border-color: #9EBC42;
+}
+
+header a{
+	color: floralwhite;
+	padding-top: 50px;
+	min-height: 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+
+header li{
+	float: right;
+	display: inline;
+	padding: 15px 15px 20px 15px;
+	margin-bottom: 5px;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+#nombre{
+	float: left;
+}
+
+#central{
+	min-width: auto;
+	min-height: auto;
+	background: url("../img/cosmos2.gif");
+}
+
+#central h1{
+	margin-top: 60px;
+	font-size: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: white;
+}
+
+#central p{
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	margin-top: 40px;
+}
+
+#cajas{
+	margin-top: 20px;
+}
+
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+	color: snow;
+	font-size: 14px;
+}
+#cajas .caja img{
+	margin-left: 50px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50px;
+}
+
+.boton1{
+	color: white;
+	border-radius: 40px;
+	background-color: rgba(80, 30, 40, 1.0);
+}
+
+#encuesta{
+	margin-top: 20px;
+}
+
+#solicitud{
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+#cuadro{
+	background: url("../img/cosmos2.gif");
+	border-width: 5px;
+	border-style: solid;
+	border-color: #9EBC42;
+	color: white;
+	font-size: 12px;
+}
+
+#Preguntas{
+	padding: 15px;
+	color: white;
+	background: url("../img/fondo1.jpg");
+}
+
+#Preguntas h1{
+	float: left;
+}
+
+#Preguntas form{
+	float: right;
+	margin-top: 15px;
+}
+
+#Preguntas input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+#boton1{
+	border-radius: 10px;
+	width: 80px;
+	height: 35px;
+	background-color: gray;
+}
+#footer {
+	padding: 20px;
+	color: snow;
+	background: url("../img/fondo1.jpg");
+	text-align: center;
+	width: auto;
+}
+
+.planes{
+	color: white;
+	min-height: 400px;
+}
+
+#planilla-planes{
+	font: 30px white;
+	text-align: center;
+}
+
+.slider1{
+	background-image: url("../img/meteoro.gif");
+	min-height: 400px;
+	min-width: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	place-items: center;
+	backdrop-filter:  blur(20px);
+}
+
+.slider2{
+	background-image: url("../img/lluviameteoro.gif");
+	min-height: 400px;
+	min-width: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	place-items: center;
+	backdrop-filter:  blur(20px);
+}
+
+.slider3{
+	background-image: url("../img/lunaymar.gif");
+	min-height: 400px;
+	min-width: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	place-items: center;
+	backdrop-filter:  blur(20px);
+}
+
+#info{
+	background-image: url("../img/cosmos1.gif");
+	font-size: 20px;
+	text-align: center;
+	width: 400px;
+}
+
+#tit-form{
+	font: 30px;
+	color: white;
+	text-align: center;
+}
+
+
+label{
+	color: white;
+	font-size: 15px;
+}
+
+input{
+	width: 50%;
+	height: 50%;
+	border-color: #9EBC42;
+	border-style: solid;
+	border-width: 3px;
+}
+
+textarea{
+	width: 50%;
+	height: 50%;
+	border-color: #9EBC42;
+	border-style: solid;
+	border-width: 3px;
+}
+
+.info{
+	text-align: center;
+}
+
